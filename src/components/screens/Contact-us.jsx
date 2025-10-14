@@ -143,7 +143,7 @@ export default function ContactUs() {
                 <EnvelopeIcon className='w-6 h-6 text-teal-700' />
               </div>
               <div>
-                <h4 className='font-semibold'>info@NivyaMaruti.in</h4>
+                <h4 className='font-semibold'>nivyaautomobile@gmail.com</h4>
                 <p className='mt-1 text-sm text-gray-600'>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </p>

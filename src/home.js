@@ -397,9 +397,9 @@ export const Footer = () => {
             <Mail className='w-5 h-5' />
             <a
               className='hover:text-gray-400'
-              href='mailto:info@NivyaMaruti.in'
+              href='mailto:nivyaautomobile@gmail.com'
             >
-              info@NivyaMaruti.in
+              nivyaautomobile@gmail.com
             </a>
           </p>
         </div>
