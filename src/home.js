@@ -172,8 +172,11 @@ const InterestForm = () => {
                 className='w-full px-4 py-2 text-sm text-center text-black bg-transparent border-b-2 border-black sm:text-base focus:outline-none'
               >
                 <option value=''>Select Model</option>
-                <option value='I20'>I20</option>
-                <option value='I20'>I20</option>
+                <option value='VICTORIS'>VICTORIS</option>
+                <option value='BREZZA'>BREZZA</option>
+                  <option value='SWIFT'>SWIFT</option>
+                <option value='ALTO-K10'>ALTO-K10</option>
+                
               </select>
               {errors.model && (
                 <p className='text-xs text-red-500'>{errors.model}</p>
