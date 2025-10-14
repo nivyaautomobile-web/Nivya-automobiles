@@ -108,7 +108,7 @@ const InterestForm = () => {
         className='hidden object-cover w-full mt-12 sm:block'
       />
       <img
-        src='/images/WM_Hyundai__October_Offers__at_Bharat_Hyundai.webp'
+        src='/images/Wm.jpg'
         alt='Mobile Banner'
         className='block object-cover w-full mt-10 sm:hidden'
       />
