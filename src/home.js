@@ -11,10 +11,10 @@ import {
   Facebook,
   Home,
   Instagram,
-  Linkedin,
   Mail,
   Phone,
   Twitter,
+  Youtube,
 } from 'lucide-react';
 import { useEffect, useRef, useState } from 'react';
 import toast from 'react-hot-toast';
@@ -96,9 +96,9 @@ const InterestForm = () => {
 
         <a
           className='pl-4 text-lg font-semibold text-white'
-          href='tel:+917733888999'
+          href='tel:+917587666999'
         >
-          📞 7733888999
+          📞 7587666999
         </a>
       </nav>
 
@@ -312,14 +312,14 @@ function CarShowcase() {
 
 export const Footer = () => {
   return (
-    <footer className='py-10 text-white bg-gray-900 '>
+    <footer className='py-12 text-white bg-gray-900'>
       <div className='grid max-w-6xl grid-cols-1 gap-8 px-6 mx-auto md:grid-cols-4'>
         {/* Logo & Address */}
         <div>
-          <h2 className='text-xl font-bold'>Nivya Maruti</h2>
+          <h2 className='text-2xl font-bold'>Nivya Maruti</h2>
           <p className='flex items-start gap-2 mt-2'>
             <Home className='w-5 h-5 mt-1' />
-            <span></span>
+            <span>123, Main Street, City, State – 123456</span>
           </p>
         </div>
 
@@ -333,7 +333,10 @@ export const Footer = () => {
               'Maruti SWIFT',
               'Maruti ALTO-K10',
             ].map((car, index) => (
-              <li key={index} className='pb-1 border-b hover:text-teal-400'>
+              <li
+                key={index}
+                className='pb-1 transition-colors duration-200 border-b border-gray-700 hover:text-teal-400'
+              >
                 {car}
               </li>
             ))}
@@ -350,7 +353,10 @@ export const Footer = () => {
               { label: 'Testimonials', href: '/' },
               { label: 'Contact Us', href: '/' },
             ].map((item, index) => (
-              <li key={index} className='pb-1 border-b hover:text-teal-400'>
+              <li
+                key={index}
+                className='pb-1 transition-colors duration-200 border-b border-gray-700 hover:text-teal-400'
+              >
                 <a href={item.href}>{item.label}</a>
               </li>
             ))}
@@ -358,77 +364,94 @@ export const Footer = () => {
         </div>
 
         {/* Social & Contact */}
-        <div className='space-y-8'>
+        <div className='space-y-6'>
           <h3 className='mb-3 text-lg font-semibold'>Follow Us</h3>
-          <div className='flex gap-4 mb-3'>
+          <div className='flex gap-4'>
             <a
-              href='https://www.facebook.com/NivyaMarutiTelangana'
+              href='https://www.facebook.com/nivyaautomobilesofficial/'
               target='_blank'
               rel='noopener noreferrer'
               aria-label='Facebook'
             >
-              <Facebook className='w-6 h-6 cursor-pointer hover:text-gray-400' />
-            </a>
-            <a href='/' aria-label='Twitter'>
-              <Twitter className='w-6 h-6 cursor-pointer hover:text-gray-400' />
+              <Facebook className='w-6 h-6 transition-colors duration-200 cursor-pointer hover:text-teal-400' />
             </a>
             <a
-              href='https://www.linkedin.com/company/86301981/admin/dashboard/'
+              href='https://x.com/NivyaAutomobile'
               target='_blank'
               rel='noopener noreferrer'
-              aria-label='LinkedIn'
+              aria-label='Twitter'
             >
-              <Linkedin className='w-6 h-6 cursor-pointer hover:text-gray-400' />
+              <Twitter className='w-6 h-6 transition-colors duration-200 cursor-pointer hover:text-teal-400' />
             </a>
             <a
-              href='https://www.instagram.com/NivyaMaruti.telangana/'
+              href='https://www.instagram.com/nivyamarutiofficial/'
               target='_blank'
               rel='noopener noreferrer'
               aria-label='Instagram'
             >
-              <Instagram className='w-6 h-6 cursor-pointer hover:text-gray-400' />
+              <Instagram className='w-6 h-6 transition-colors duration-200 cursor-pointer hover:text-teal-400' />
+            </a>
+            <a
+              href='https://www.youtube.com/@NivyaAutomobiles'
+              target='_blank'
+              rel='noopener noreferrer'
+              aria-label='Youtube'
+            >
+              <Youtube className='w-8 h-6 transition-colors duration-200 cursor-pointer hover:text-teal-400' />
             </a>
           </div>
+
+          {/* Contact Info */}
           <p className='flex items-center gap-2'>
             <Phone className='w-5 h-5' />
-            <a href='tel:+917733888999'>7733888999</a>
-          </p>
-          <p className='flex items-center gap-2 mt-2'>
-            <Mail className='w-5 h-5' />
             <a
-              className='hover:text-gray-400'
-              href='mailto:nivyaautomobile@gmail.com'
+              href='tel:+917587666999'
+              className='transition-colors duration-200 hover:text-teal-400'
             >
-              nivyaautomobile@gmail.com
+              +91 75876 66999
+            </a>
+          </p>
+          <p className='flex items-center gap-3'>
+            <span className='flex items-center justify-center w-8 h-8 rounded-full'>
+              <Mail className='w-4 h-4 text-white' />
+            </span>
+            <a
+              href='mailto:nivya.atp.sm@marutidealers.com'
+              className='transition-colors duration-200 hover:text-teal-400'
+            >
+              nivya.atp.sm@marutidealers.com
             </a>
           </p>
         </div>
       </div>
 
       {/* Bottom Bar */}
-      <div className='pt-4 mt-6 text-sm text-center border-t border-gray-700'>
+      <div className='pt-6 mt-10 space-y-2 text-sm text-center border-t border-gray-700'>
         <p>
-          <a href='/' className='hover:text-gray-400'>
+          <a
+            href='/'
+            className='transition-colors duration-200 hover:text-teal-400'
+          >
             Terms & Conditions
           </a>{' '}
           |{' '}
-          <a href='/PrivacyPolicy' className='hover:text-gray-400'>
+          <a
+            href='/PrivacyPolicy'
+            className='transition-colors duration-200 hover:text-teal-400'
+          >
             Privacy Policy
           </a>
         </p>
-        <p className='mt-2'>
-          © 2025 All Rights Reserved by Nivya Maruti Motors.
-        </p>
-        <p className='mt-1 text-gray-500'>
-          Powered by
+        <p>© 2025 All Rights Reserved by Nivya Maruti Motors.</p>
+        <p className='text-gray-500'>
+          Powered by{' '}
           <a
             href='https://broaddcast.com/'
             target='_blank'
             rel='noopener noreferrer'
+            className='transition-colors duration-200 hover:text-red-500'
           >
-            <span className='ml-4 hover:text-red-500'>
-              BroaddCast Business Solutions LLP.
-            </span>
+            BroaddCast Business Solutions LLP.
           </a>
         </p>
       </div>

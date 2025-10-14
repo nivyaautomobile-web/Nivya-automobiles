@@ -25,9 +25,9 @@ const ThankYouPage = () => {
         </Link>
         <a
           className='text-lg font-semibold text-white'
-          href='tel:+917733888999'
+          href='tel:+917587666999'
         >
-          📞 7733888999
+          📞 7587666999
         </a>
       </nav>
 

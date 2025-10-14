@@ -130,7 +130,7 @@ export default function ContactUs() {
                 <PhoneIcon className='w-6 h-6 text-teal-700' />
               </div>
               <div>
-                <h4 className='font-semibold'>7733888999</h4>
+                <h4 className='font-semibold'>7587666999</h4>
                 <p className='mt-1 text-sm text-gray-600'>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </p>

@@ -41,7 +41,7 @@ const partners = [
 const testimonials = [
   {
     quote:
-      'One of the standout features of Nivyah Maruti is its user‑friendly staff and modern facilities. The entire process, from enquiry to delivery, was smooth and transparent.',
+      'One of the standout features of Nivya Maruti is its user‑friendly staff and modern facilities. The entire process, from enquiry to delivery, was smooth and transparent.',
     name: 'George Orwell',
     location: 'Arizona, AZ',
     img: '/images/testimonials/george.jpg',
@@ -59,7 +59,7 @@ export default function AboutUs() {
           <div className='absolute inset-0 bg-black/60'></div>
           <div className='relative z-10 px-4 text-center text-white'>
             <h1 className='mb-4 text-4xl font-extrabold md:text-6xl'>
-              About Nivyah Maruti
+              About Nivya Maruti
             </h1>
             <p className='text-lg md:text-xl'>
               Empowering Your Drive — With Trust, Quality, and Excellence
@@ -73,7 +73,7 @@ export default function AboutUs() {
             <div>
               <h2 className='mb-6 text-3xl font-bold'>Our Mission</h2>
               <p className='mb-6 leading-relaxed text-gray-600'>
-                At Nivyah Maruti, our mission is to empower you to discover the
+                At Nivya Maruti, our mission is to empower you to discover the
                 joy of driving your dream Maruti. We aim to make your car-buying
                 experience seamless and enjoyable, providing transparency,
                 integrity, and reliability in all our interactions.

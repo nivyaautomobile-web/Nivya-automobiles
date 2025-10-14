@@ -17,9 +17,9 @@ export default function PrivacyPolicy() {
         </Link>
         <a
           className='text-lg font-semibold text-white'
-          href='tel:+917733888999'
+          href='tel:+917587666999'
         >
-          📞 7733888999
+          📞 7587666999
         </a>
       </nav>
       <div className='max-w-4xl px-6 py-12 mx-auto mt-10 text-gray-800'>
@@ -28,7 +28,7 @@ export default function PrivacyPolicy() {
         </h1>
 
         <p className='mb-6'>
-          At <strong>Nivyah Maruti</strong>, we value your privacy and are
+          At <strong>Nivya Maruti</strong>, we value your privacy and are
           committed to protecting any personal information you share with us.
           This Privacy Policy outlines how we collect, use, disclose, and
           protect your information when you visit our website or interact with
@@ -133,12 +133,12 @@ export default function PrivacyPolicy() {
           </h2>
           <p>
             If you have any questions or concerns about our Privacy Policy, feel
-            free to contact us at <strong>7733888999</strong>.
+            free to contact us at <strong>7587666999</strong>.
           </p>
         </section>
 
         <p className='mt-10 text-sm text-gray-500'>
-          Thank you for trusting Nivyah Maruti. Your privacy is important to us.
+          Thank you for trusting Nivya Maruti. Your privacy is important to us.
         </p>
       </div>{' '}
       <Footer />
