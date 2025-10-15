@@ -105,10 +105,10 @@ const InterestForm = () => {
       <img
         src='/images/Web_Banner.webp'
         alt='Banner'
-        className='hidden object-cover w-full mt-12 sm:block'
+        className='hidden object-cover w-full mt-16 sm:block '
       />
       <img
-        src='/images/Wm.jpg'
+        src='/images/wm_banner.webp'
         alt='Mobile Banner'
         className='block object-cover w-full mt-10 sm:hidden'
       />
@@ -419,9 +419,9 @@ export const Footer = () => {
             </span>
             <a
               href='mailto:nivya.atp.sm@marutidealers.com'
-              className='transition-colors duration-200 hover:text-teal-400'
+              className='text-sm transition-colors duration-200 hover:text-teal-400'
             >
-              nivya.atp.sm@marutidealers.com
+              nivya.atp.sm@maruti<br/>dealers.com
             </a>
           </p>
         </div>

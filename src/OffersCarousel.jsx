@@ -25,6 +25,36 @@ const carOffers = [
     price: '₹50,000*',
     image: 'https://www.skyautomobiles.in/thumbnail/altoK10.webp',
   },
+    {
+    name: 'Maruti Dzire',
+    price: '₹7,05,000*',
+    image: 'https://www.skyautomobiles.in/thumbnail/bluishblack.png',
+  },
+  {
+    name: 'Maruti S-Presso',
+    price: '₹55,000*',
+    image: 'https://www.skyautomobiles.in/thumbnail/spresso.webp',
+  },
+  {
+    name: 'Maruti WagonR',
+    price: '₹50,000*',
+    image: 'https://www.skyautomobiles.in/thumbnail/wagnor.webp',
+  },
+  {
+    name: 'Maruti Ertiga',
+    price: '₹50,000*',
+    image: 'https://www.skyautomobiles.in/thumbnail/ertiga.webp',
+  },
+    {
+    name: 'Maruti Celerio',
+    price: '₹50,000*',
+    image: 'https://www.skyautomobiles.in/thumbnail/celerio.webp',
+  },
+  {
+    name: 'Maruti Eeco',
+    price: '₹50,000*',
+    image: 'https://www.skyautomobiles.in/thumbnail/Eeco.webp',
+  },
 ];
 
 function OffersCarousel() {
