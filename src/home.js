@@ -103,7 +103,7 @@ const InterestForm = () => {
       </nav>
 
       <img
-        src='/images/show.jpg'
+        src='/images/Web_Banner.webp'
         alt='Banner'
         className='hidden object-cover w-full mt-12 sm:block'
       />
@@ -174,9 +174,8 @@ const InterestForm = () => {
                 <option value=''>Select Model</option>
                 <option value='VICTORIS'>VICTORIS</option>
                 <option value='BREZZA'>BREZZA</option>
-                  <option value='SWIFT'>SWIFT</option>
+                <option value='SWIFT'>SWIFT</option>
                 <option value='ALTO-K10'>ALTO-K10</option>
-                
               </select>
               {errors.model && (
                 <p className='text-xs text-red-500'>{errors.model}</p>
