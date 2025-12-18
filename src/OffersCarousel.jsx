@@ -8,52 +8,52 @@ const carOffers = [
   {
     name: 'Maruti VICTORIS',
     price: '₹7,05,000*',
-    image: 'https://www.skyautomobiles.in/thumbnail/victoris.png',
+    image: 'https://ik.imagekit.io/hsukyjske/Nivya-automobiles/Victoris/Colors/splendid_silver-min.png?updatedAt=1762336384590',
   },
   {
     name: 'Maruti Brezza',
     price: '₹55,000*',
-    image: 'https://www.skyautomobiles.in/thumbnail/brezza-page.webp',
+    image: 'https://ik.imagekit.io/hsukyjske/Nivya-automobiles/Brezza/Colors/sizzling_red-removebg-preview-min.png?updatedAt=1762412295879',
   },
-  {
-    name: 'Maruti Swift',
-    price: '₹50,000*',
-    image: 'https://www.skyautomobiles.in/thumbnail/swift02.webp',
-  },
+  // {
+  //   name: 'Maruti Swift',
+  //   price: '₹50,000*',
+  //   image: 'https://www.skyautomobiles.in/thumbnail/swift02.webp',
+  // },
   {
     name: 'Maruti ALTO K10',
     price: '₹50,000*',
-    image: 'https://www.skyautomobiles.in/thumbnail/altoK10.webp',
+    image: 'https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/Arena/new-alto-k10/colors/color_range_688x360_red.webp',
   },
     {
     name: 'Maruti Dzire',
     price: '₹7,05,000*',
-    image: 'https://www.skyautomobiles.in/thumbnail/bluishblack.png',
+    image: 'https://www.marutisuzuki.com/images/dzire_brand/images/threesixty/red.webp',
   },
   {
     name: 'Maruti S-Presso',
     price: '₹55,000*',
-    image: 'https://www.skyautomobiles.in/thumbnail/spresso.webp',
+    image: 'https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/Arena/data/spresso/colors/Maruti-Suzuki-Spresso-Blue.webp',
   },
   {
     name: 'Maruti WagonR',
     price: '₹50,000*',
-    image: 'https://www.skyautomobiles.in/thumbnail/wagnor.webp',
+    image: 'https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/Arena/data/wagonr/colors/PREMIUM-GALLANT-RED_Dual.webp',
   },
   {
     name: 'Maruti Ertiga',
     price: '₹50,000*',
-    image: 'https://www.skyautomobiles.in/thumbnail/ertiga.webp',
+    image: 'https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/maruti-ertiga/colors/RED.webp',
   },
     {
     name: 'Maruti Celerio',
     price: '₹50,000*',
-    image: 'https://www.skyautomobiles.in/thumbnail/celerio.webp',
+    image: 'https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/Arena/data/celerio/colors/Maruti-Suzuki-Clerio-GLISTENING_GREY.webp',
   },
   {
     name: 'Maruti Eeco',
     price: '₹50,000*',
-    image: 'https://www.skyautomobiles.in/thumbnail/Eeco.webp',
+    image: 'https://images-saboomaruti-in.s3.ap-south-1.amazonaws.com/Arena/cars/eeco/eeco-white.webp',
   },
 ];
 
